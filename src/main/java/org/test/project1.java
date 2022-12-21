@@ -14,6 +14,9 @@ public class project1 {
 		
 		WebElement txtUserName = driver.findElement(By.id("email"));
 		txtUserName.sendKeys("Mega");
+		
+		WebElement pass = driver.findElement(By.id("pass"));
+		pass.sendKeys("Mega");
 	}
 
 }
